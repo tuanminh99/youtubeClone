@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <a role="button" aria-controls="collapseCategories" data-toggle="collapse" data-target="#collapseCategories" aria-expanded="false">
+            <img style="margin-left: 9px;" src="menu.svg" alt="">
+        </a>
+        <a href="#">
+            <img style="margin-left: 16px;" class="yt-logo" src="http://sdtv.vn/vnt_upload/news/09_2017/01/photo-0-1504062727992_1.jpg" alt="Youtube">
+        </a>
+        <form class="search-bar">
+            <input
+                type="search" 
+                class="search-input" 
+                placeholder="Tìm kiếm" 
+                aria-label="Search"
+                />
+                <!-- <a href="">
+                    <img src="keyboard.svg" alt="">
+                </a> -->
+            <button type="submit" class="search-button">
+                <img style="margin-top: 4px;" src="search.svg" />
+            </button>
+            
+            <img class="mic" src="mic.svg" />
+           
+        </form>
+        
+        <div class="menu-icon">
+            <a href="#">
+                <img src="videoPlus.svg" alt="video-plus">
+            </a>
+            <a href="#">
+                <img src="apps.svg" alt="apps">
+            </a>
+            <a href="#">
+                <img style="width: 23px;" src="notifi.svg" alt="notification">
+            </a>
+            <a href="#">
+                <img style="width: 33px; border-radius: 50%;" src="https://yt3.ggpht.com/yti/ANoDKi4AckHgvN35Rou1Ftqjiyg46rs5IuIV9sbNMgOCIg=s88-c-k-c0x00ffffff-no-rj-mo" alt="channel-icon">
+            </a>
+        </div>
+    </header>
+    <div class="mainBody" >
+        <div class="collapse" id="collapseCategories">
+        <div class="categories">
+            <div class="categoriesSection">
+                <span>
+                    <a role="button" aria-controls="collapseCategories" data-toggle="collapse" data-target="#collapseCategories" aria-expanded="false">
+                        <img style="margin-left: 25px;" src="menu.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img style="margin-left: 10px;" class="yt-logo" src="http://sdtv.vn/vnt_upload/news/09_2017/01/photo-0-1504062727992_1.jpg" alt="Youtube">
+                    </a>
+                </span>
+                <span class="category active">
+                    <i class="icon">
+                        <img src="home.svg" alt="">
+                    </i>
+                    <span>Trang chủ</span>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="explore.svg" alt="">
+                    </i>
+                    <span>Khám phá</span>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="sub.svg" alt="">
+                    </i>
+                    <span>Subscriptions</span>
+                </span>
+            </div>
+            <div class="categoriesSection">
+                <span class="category">
+                    <i class="icon">
+                        <img src="library.svg" alt="">
+                    </i>
+                    <span>Thư viện</span>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="watched.svg" alt="">
+                    </i>
+                    <span>Video đã xem</span>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="myVideo.svg" alt="">
+                    </i>
+                    <span>Video của bạn</span>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="watchLater.svg" alt="">
+                    </i>
+                    <span>Xem sau</span>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="myVideo.svg" alt="">
+                    </i>
+                    <span>Video của bạn</span>
+                </span>
+            </div>
+            <div class="categoriesSection">
+                <h3>Kênh đăng ký</h3>
+                <span class="category">
+                    <i class="icon">
+                        H
+                    </i>
+                    <span>Home</span>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        T
+                    </i>
+                    <span>Trending</span>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        S
+                    </i>
+                    <span>Subscription</span>
+                </span>
+            </div>
+        </div>
+    </div>
+        <div class="categories2">
+            <div class="categoriesSection">
+                <span class="category active">
+                    <i class="icon">
+                        <img src="home.svg" alt="">
+                    </i>
+                    
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="explore.svg" alt="">
+                    </i>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="sub.svg" alt="">
+                    </i>
+                </span>
+            </div>
+            <div class="categoriesSection">
+                <span class="category">
+                    <i class="icon">
+                        <img src="library.svg" alt="">
+                    </i>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="watched.svg" alt="">
+                    </i>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="myVideo.svg" alt="">
+                    </i>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="watchLater.svg" alt="">
+                    </i>
+                </span>
+                <span class="category">
+                    <i class="icon">
+                        <img src="myVideo.svg" alt="">
+                    </i>
+                </span>
+            </div>
+        </div>
+        <div class="videos">
+            <div class="videosGrid">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/5vheNbQlsyU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCeakcUqaVTA1wayalpEXT4sqfkKg" 
+                        alt=""/>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwniKYcDgNV04yT8ksEp_rWeAoceODtE-VlfwZTNtkfc=s88-c-k-c0x00ffffff-no-rj-mo" 
+                            alt="">
+                        </div>
+                        <div class="text">
+                            <p>Always Remember Us This Way (from A Star Is Born)</p>
+                            <a href="#">Lady Gaga</a>
+                            <div class="view-publishTime">
+                                <span>6,8 Tr lượt xem</span>
+                                •
+                                <span>3 năm trước</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/5vheNbQlsyU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCeakcUqaVTA1wayalpEXT4sqfkKg" 
+                        alt=""/>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwniKYcDgNV04yT8ksEp_rWeAoceODtE-VlfwZTNtkfc=s88-c-k-c0x00ffffff-no-rj-mo" 
+                            alt="">
+                        </div>
+                        <div class="text">
+                            <p>Always Remember Us This Way (from A Star Is Born)</p>
+                            <a href="#">Lady Gaga</a>
+                            <div class="view-publishTime">
+                                <span>6,8 Tr lượt xem</span>
+                                •
+                                <span>3 năm trước</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/5vheNbQlsyU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCeakcUqaVTA1wayalpEXT4sqfkKg" 
+                        alt=""/>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwniKYcDgNV04yT8ksEp_rWeAoceODtE-VlfwZTNtkfc=s88-c-k-c0x00ffffff-no-rj-mo" 
+                            alt="">
+                        </div>
+                        <div class="text">
+                            <p>Always Remember Us This Way (from A Star Is Born)</p>
+                            <a href="#">Lady Gaga</a>
+                            <div class="view-publishTime">
+                                <span>6,8 Tr lượt xem</span>
+                                •
+                                <span>3 năm trước</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/5vheNbQlsyU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCeakcUqaVTA1wayalpEXT4sqfkKg" 
+                        alt=""/>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwniKYcDgNV04yT8ksEp_rWeAoceODtE-VlfwZTNtkfc=s88-c-k-c0x00ffffff-no-rj-mo" 
+                            alt="">
+                        </div>
+                        <div class="text">
+                            <p>Always Remember Us This Way (from A Star Is Born)</p>
+                            <a href="#">Lady Gaga</a>
+                            <div class="view-publishTime">
+                                <span>6,8 Tr lượt xem</span>
+                                •
+                                <span>3 năm trước</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/5vheNbQlsyU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCeakcUqaVTA1wayalpEXT4sqfkKg" 
+                        alt=""/>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwniKYcDgNV04yT8ksEp_rWeAoceODtE-VlfwZTNtkfc=s88-c-k-c0x00ffffff-no-rj-mo" 
+                            alt="">
+                        </div>
+                        <div class="text">
+                            <p>Always Remember Us This Way (from A Star Is Born)</p>
+                            <a href="#">Lady Gaga</a>
+                            <div class="view-publishTime">
+                                <span>6,8 Tr lượt xem</span>
+                                •
+                                <span>3 năm trước</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/5vheNbQlsyU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCeakcUqaVTA1wayalpEXT4sqfkKg" 
+                        alt=""/>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwniKYcDgNV04yT8ksEp_rWeAoceODtE-VlfwZTNtkfc=s88-c-k-c0x00ffffff-no-rj-mo" 
+                            alt="">
+                        </div>
+                        <div class="text">
+                            <p>Always Remember Us This Way (from A Star Is Born)</p>
+                            <a href="#">Lady Gaga</a>
+                            <div class="view-publishTime">
+                                <span>6,8 Tr lượt xem</span>
+                                •
+                                <span>3 năm trước</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/5vheNbQlsyU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCeakcUqaVTA1wayalpEXT4sqfkKg" 
+                        alt=""/>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwniKYcDgNV04yT8ksEp_rWeAoceODtE-VlfwZTNtkfc=s88-c-k-c0x00ffffff-no-rj-mo" 
+                            alt="">
+                        </div>
+                        <div class="text">
+                            <p>Always Remember Us This Way (from A Star Is Born)</p>
+                            <a href="#">Lady Gaga</a>
+                            <div class="view-publishTime">
+                                <span>6,8 Tr lượt xem</span>
+                                •
+                                <span>3 năm trước</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/5vheNbQlsyU/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCeakcUqaVTA1wayalpEXT4sqfkKg" 
+                        alt=""/>
+                    </div>
+                    <div class="details">
+                        <div class="author">
+                            <img src="https://yt3.ggpht.com/ytc/AAUvwniKYcDgNV04yT8ksEp_rWeAoceODtE-VlfwZTNtkfc=s88-c-k-c0x00ffffff-no-rj-mo" 
+                            alt="">
+                        </div>
+                        <div class="text">
+                            <p>Always Remember Us This Way (from A Star Is Born)</p>
+                            <a href="#">Lady Gaga</a>
+                            <div class="view-publishTime">
+                                <span>6,8 Tr lượt xem</span>
+                                •
+                                <span>3 năm trước</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
